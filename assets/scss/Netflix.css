@@ -16,4 +16,23 @@ body {
 }
 .nav-item .nav-link:hover {
   font-weight: bold;
+}
+
+.tv {
+  display: flex;
+  align-items: center;
+}
+.tv button {
+  margin-left: 10px;
+  font-size: 0.8rem;
+}
+
+.container {
+  margin-left: 0 70px;
+}
+
+.icon1 button {
+  font-size: 0.5rem;
+  border-radius: 0;
+  margin: 0;
 }/*# sourceMappingURL=Netflix.css.map */
