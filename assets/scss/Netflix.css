@@ -1,4 +1,19 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.netflix {
+  width: 10%;
+}
+
+.nav-item a {
+  font-size: 0.8rem;
+}
+.nav-item .nav-link:hover {
+  font-weight: bold;
 }/*# sourceMappingURL=Netflix.css.map */
