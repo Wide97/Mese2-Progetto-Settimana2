@@ -69,36 +69,18 @@ footer{
         font-size: 1.1rem;
     }
 }
-.circle{
-    border-radius: 50%;
-    padding: 5px;
-}
-@media (max-width: 1000px){
-    .circle{
-        position: absolute;
-        top: 230px;
-        left: 50px;
-    }
-}
-@media (max-width: 783px){
-    .circle{
-        position: absolute;
-        top: 170px;
-        left:30px;
-    }
-}
-@media (min-width: 1001px){
-    .circle{
-        position: absolute;
-        top: 175px;
-        left:30px;
-        width: 20%;
-    }
-}
 button:hover{
     font-weight: bold;
 }
 p:hover{
     font-weight: bold;
+}
+.position-absolute{
+    top: 10px;
+    left: 10px;
+    button{
+        border-radius: 50%;
+        padding: 5px;
+    }
 }
   
