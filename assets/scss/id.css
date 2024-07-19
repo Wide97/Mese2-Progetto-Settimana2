@@ -1,4 +1,48 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.img {
+  width: 15%;
+}
+
+section {
+  width: 40%;
+  margin-left: 35%;
+  margin-right: 20%;
+}
+section h1 {
+  font-size: 3.5rem;
+}
+
+.main {
+  display: flex;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+}
+.btn p {
+  font-size: 0.7rem;
+  padding-left: 5px;
+}
+
+.student {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.language button {
+  border: 1px solid white;
+}
+
+.p1 p {
+  font-size: 0.8rem;
 }/*# sourceMappingURL=id.css.map */
