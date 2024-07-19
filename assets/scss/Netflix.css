@@ -27,12 +27,30 @@ body {
   font-size: 0.8rem;
 }
 
-.container {
-  margin-left: 0 70px;
+.icon1 {
+  display: flex;
+  justify-content: end;
 }
-
 .icon1 button {
   font-size: 0.5rem;
   border-radius: 0;
   margin: 0;
+}
+
+section h2 {
+  margin-top: 30px;
+  font-size: 1.8rem;
+}
+
+.no-wrap-lg {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+@media (max-width: 991.98px) {
+  .no-wrap-lg {
+    flex-wrap: wrap;
+    overflow-x: visible;
+  }
 }/*# sourceMappingURL=Netflix.css.map */
