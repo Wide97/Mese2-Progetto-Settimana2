@@ -64,4 +64,32 @@ footer button {
   margin: 5px 5px;
   padding: 5px 0;
   font-size: 1.1rem;
+}
+
+.circle {
+  border-radius: 50%;
+  padding: 5px;
+}
+
+@media (max-width: 1000px) {
+  .circle {
+    position: absolute;
+    top: 230px;
+    left: 50px;
+  }
+}
+@media (max-width: 783px) {
+  .circle {
+    position: absolute;
+    top: 170px;
+    left: 30px;
+  }
+}
+@media (min-width: 1001px) {
+  .circle {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 20%;
+  }
 }/*# sourceMappingURL=id.css.map */
