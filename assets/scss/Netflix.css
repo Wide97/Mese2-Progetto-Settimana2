@@ -53,4 +53,30 @@ section h2 {
     flex-wrap: wrap;
     overflow-x: visible;
   }
+}
+footer {
+  width: 50%;
+  margin: 0 25%;
+  margin-top: 5%;
+}
+footer i {
+  padding: 0 10px;
+}
+footer p {
+  font-size: 0.8rem;
+}
+footer .btn1 button {
+  border-radius: 0;
+  margin: 10px 0;
+  font-size: 0.8rem;
+}
+footer .fine {
+  margin: 10px 0;
+}
+footer .fine p {
+  font-size: 0.6rem;
+}
+
+.footer {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=Netflix.css.map */
