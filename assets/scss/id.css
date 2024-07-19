@@ -11,12 +11,12 @@ body {
   width: 15%;
 }
 
-section {
+section, footer {
   width: 40%;
   margin-left: 35%;
   margin-right: 20%;
 }
-section h1 {
+section h1, footer h1 {
   font-size: 3.5rem;
 }
 
@@ -41,7 +41,7 @@ section h1 {
 .student {
   width: 100%;
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .language button {
@@ -54,6 +54,14 @@ section h1 {
 }
 
 .btn-white-border {
-  border: 1px solid white;
   margin-bottom: 20px;
+}
+
+footer {
+  margin-bottom: 30px;
+}
+footer button {
+  margin: 0 5px;
+  padding: 5px 0;
+  font-size: 1.1rem;
 }/*# sourceMappingURL=id.css.map */
