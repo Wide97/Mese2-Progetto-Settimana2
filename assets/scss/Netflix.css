@@ -79,4 +79,12 @@ footer .fine p {
 
 .footer {
   margin-bottom: 20px;
+}
+
+p:hover {
+  font-weight: bold;
+}
+
+button:hover {
+  font-weight: bold;
 }/*# sourceMappingURL=Netflix.css.map */
